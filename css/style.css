@@ -1,0 +1,153 @@
+body {
+    /*设置页面整体样式*/
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+    /*设置行高是字符的1.5倍*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #333333;
+    /*设置文字颜色为深灰色*/
+    background-color: #ede4bb;
+    /*设置背景颜色为土黄色*/
+}
+
+#container {
+    /*设置整个页面容器的样式*/
+    margin: 0px auto;
+    /*容器自动居中*/
+    width: 900px;
+}
+
+#banner {
+    width: 900px;
+    height: 150px;
+    padding: 0;
+    border-bottom: 2px solid #403d4a;
+    /*顶部区域下边框为 2px 深色实线*/
+}
+
+#banner p {
+    /*设置页面顶部区域段落的样式*/
+    padding: 0px;
+    color: #333333;
+    text-align: justify;
+    /*两端对齐*/
+}
+
+.headersection {
+    /*设置页面顶部区域网站标志区域的样式*/
+    float: left;
+    width: 300px;
+    height: 80px;
+    padding: 50px 0 0 50px;
+    color: #FFCC00;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.aboutco {
+    /*设置页面顶部博客简介区域的样式*/
+    float: right;
+    /*向右浮动*/
+    width: 350px;
+    padding: 30px 200px 0 0;
+}
+
+.readmore_black a {
+    /*设置更多信息链接样式*/
+    clear: both;
+    /*清除所有浮动*/
+    float: right;
+    /*向右浮动*/
+    display: block;
+    width: 80px;
+    height: 18px;
+    padding-top: 2px;
+    /*设置上内边距为2px*/
+    text-align: center;
+    color: #e70edc;
+    text-decoration: none;
+    /*链接无修饰*/
+}
+
+.readmore_black a:hover {
+    color: #9791ad;
+}
+
+#content {
+    float: left;
+    width: 900px;
+}
+
+#leftcol {
+    float: left;
+    width: 510px;
+    padding: 30px 0px 0px 50px;
+}
+
+.post {
+    float: left;
+    width: 500px;
+    padding-bottom: 40px;
+}
+
+.postdate {
+    float: left;
+    width: 35px;
+    height: 50px;
+    padding: 15px 0 0 13px;
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.month {
+    clear: both;
+    padding: 15px 0 0 0;
+    font-size: 12px;
+}
+
+.postbody {
+    float: left;
+    width: 435px;
+    /*设置博文下内边距为40px*/
+    padding-left: 12px;
+    border-left: 5px solid #666666; /*区域左边框为 5px 深灰色实线*/
+}
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.postbody img {
+    float: left;
+    margin-right: l0px;
+    border: 3px solid #333333;
+}
+
+.paging {
+    clear: both;
+    width: 510px;
+    height: 25px;
+    margin-bottom: l0px;
+}
+
+#rightcol {
+    float: right;
+    width: 250px;
+    padding: 30px 50px 0 0;
+}
+
+#footer {
+    /*页面底部版权区域的样式*/
+    clear: both;
+    width: 860px;
+    height: 50px;
+    padding: l0px 40px 0px 0px;
+    text-align: center;
+    color: #333333;
+    line-height: 18px;
+    border-top: 2px solid #403d4a;
+    /*底部区域上边框为2px深色实线*/
+}

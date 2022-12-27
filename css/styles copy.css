@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    color: #333;
+    font-family: 宋体;
+    font-size: 13px;
+    line-height: 1.5em;
+    background-color: #ede4bb;
+}
+img {
+    border: none;
+}
+.image_wrapper {
+    padding: 8;
+    border: 1px solid#ccc;
+    background: #fff;
+}
+.cleaner {
+    clear: both;
+}
+.float_l {
+    float:left
+}
+.float_r {
+    float:right
+}
+#wrapper {
+    position: relative;
+    width: 980px;
+    padding: 0 5px;
+    margin: 0 auto;
+}
+#main {
+    clear: both;
+    padding: 20px 40px;
+}
+#content {
+    float:right;
+    width: 600px;
+    padding-bottom: 90px;
+}
+.box_w270 {
+    width: 270px;
+}
